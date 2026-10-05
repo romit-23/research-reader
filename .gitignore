@@ -1,0 +1,21 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Storage & Databases
+backend/storage/*.pdf
+backend/storage/*.db
+backend/storage/*.sqlite
+backend/storage/reader.db
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.tmp/
+*.tsbuildinfo
+
+# Env & Logs
+.env
+*.log
